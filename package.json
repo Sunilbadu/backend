@@ -1,0 +1,24 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "homepage": "https://github.com/Sunilbadu/backend#readme",
+  "bugs": {
+    "url": "https://github.com/Sunilbadu/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunilbadu/backend.git"
+  },
+  "license": "ISC",
+  "author": "sunil datta badu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
