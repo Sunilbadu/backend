@@ -1,14 +1,17 @@
 // require('dotenv').config({path: './env'})
-// import dotenv from "dotenv"
+import dotenv from "dotenv"
 // import mongoose from "mongoose";
 // import {$DB_NAME} from "./constants";
+import dns from "node:dns";
+
+dns.setServers(["8.8.8.8", "8.8.4.4"]);
 import connectDB from "./db/index.js";
 // import express from "express"
 // const app = express()
  
-// dotenv.config({
-//     path: './env'
-// });
+dotenv.config({
+    path: './env'
+});
 
 connectDB()
 
