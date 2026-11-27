@@ -6,8 +6,7 @@ import dns from "node:dns";
 dns.setServers(["8.8.8.8", "8.8.4.4"]);
 import connectDB from "./db/index.js";
 
- 
-dotenv.config({
+ dotenv.config({
     path: './.env'
 });
 
@@ -20,8 +19,7 @@ connectDB()
 }
 )
 .catch((err)=>{
-    console.log("mongo db conection failed",err);
-    
+    console.log("mongo db conection failed",err);   
 })
 
 
